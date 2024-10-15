@@ -122,61 +122,20 @@
                                     <li><a href="shop-single.html">Shop single</a></li>
                                 </ul>
                             </li>--}}
-                            <li><a href="contact.html">Inicio</a></li>
-                            <li><a href="contact.html">¿Cómo Funciona?</a></li>
-                            <li><a href="contact.html">Testimonios</a></li>
-                            <li><a href="contact.html">Puntos de Venta</a></li>
-                            <li><a href="contact.html">Financiamiento</a></li>
-                            <li><a href="contact.html">FAQs</a></li>
-                            <li><a href="contact.html">Contacto</a></li>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#funcionamiento">¿Cómo Funciona?</a></li>
+                            <li><a href="#testimonios">Testimonios</a></li>
+                            <li><a href="#punto">Puntos de Venta</a></li>
+                            <li><a href="#financiamiento">Financiamiento</a></li>
+                            <li><a href="#faq">FAQs</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
 
                     <div class="cart-search-contact">
-                        <div class="header-search-form-wrapper">
-                            <button class="search-toggle-btn"><i class="fi flaticon-search"></i></button>
-                            <div class="header-search-form">
-                                <form>
-                                    <div>
-                                        <input type="text" class="form-control" placeholder="Search here...">
-                                        <button type="submit"><i class="ti-search"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="mini-cart">
-                            <button class="cart-toggle-btn"> <i class="fi flaticon-shopping-basket"></i> <span class="cart-count">02</span></button>
-                            <div class="mini-cart-content">
-                                <div class="mini-cart-items">
-                                    <div class="mini-cart-item clearfix">
-                                        <div class="mini-cart-item-image">
-                                            <a href="#"><img src="{{ asset('proffer/proffer/assets/images/shop/mini-cart/img-1.jpg') }}" alt></a>
-                                        </div>
-                                        <div class="mini-cart-item-des">
-                                            <a href="#">Hoodi with zipper</a>
-                                            <span class="mini-cart-item-price">$20.15</span>
-                                            <span class="mini-cart-item-quantity">x 1</span>
-                                        </div>
-                                    </div>
-                                    <div class="mini-cart-item clearfix">
-                                        <div class="mini-cart-item-image">
-                                            <a href="#"><img src="{{ asset('proffer/proffer/assets/images/shop/mini-cart/img-2.jpg') }}" alt></a>
-                                        </div>
-                                        <div class="mini-cart-item-des">
-                                            <a href="#">Ninja T-shirt</a>
-                                            <span class="mini-cart-item-price">$13.25</span>
-                                            <span class="mini-cart-item-quantity">x 2</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mini-cart-action clearfix">
-                                    <span class="mini-checkout-price">$215.14</span>
-                                    <a href="#" class="view-cart-btn">View Cart</a>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="donate-btn">
-                            <a href="#" class="theme-btn-s7"><i class="fi flaticon-like"></i> Donate Now</a>
+                            <a href="#contacto" class="theme-btn-s7"><i class="fi flaticon-like"></i> Contacto</a>
                         </div>
                     </div>
 
@@ -200,7 +159,7 @@
                                         <img src="{{ asset('proffer/proffer/assets/images/logos/RTCTEM(3).png') }}" alt>
                                     </h3>
                                 </div>
-                                <p>Strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal</p>
+                                <p>Respira Tranquilo(a) con tu Estufa Mejorada</p>
                                 <div class="social-icons">
                                     <ul>
                                         <li><a href="#"><i class="ti-facebook"></i></a></li>
@@ -214,49 +173,39 @@
                         <div class="col col-lg-3 col-md-3 col-sm-6">
                             <div class="widget contact-widget service-link-widget">
                                 <div class="widget-title">
-                                    <h3>Address Location</h3>
+                                    <h3>Contacto</h3>
                                 </div>
                                 <ul>
-                                    <li>Upper surface of the impenetrable foliage of my trees, and</li>
-                                    <li><span>Phone:</span> 12465246</li>
-                                    <li><span>Email:</span> demo@example.com</li>
-                                    <li><span>Office Time:</span> 10AM- 5PM</li>
+                                    <li><font color="cd211d"><i class="fi flaticon-placeholder"></i></font> Calle 3 45-34 zona 4 Guatemala, Guatemala.</li>
+                                    <li><font color="cd211d"><i class="fi flaticon-call"></i></font> <a href="tel:+50234565432">+(502) 4567-5678</a></li>
+                                    <li><font color="cd211d"><i class="fi flaticon-email"></i></font> <a href="mailto:demo@example.com">info@respiratranquilo.org</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col col-lg-3 col-md-3 col-sm-6">
                             <div class="widget link-widget">
                                 <div class="widget-title">
-                                    <h3>Quick Links</h3>
+                                    <h3>Links</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Our services</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Meet team</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#funcionamiento">¿Cómo Funciona?</a></li>
+                                    <li><a href="#testimonios">Testimonios</a></li>
+                                    <li><a href="#punto">Puntos de Venta</a></li>
+                                    <li><a href="#financiamiento">Financiamiento</a></li>
+                                    <li><a href="#faq">FAQs</a></li>
+                                    <li><a href="#contacto">Contacto</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col col-lg-3 col-md-3 col-sm-6">
                             <div class="widget newsletter-widget">
                                 <div class="widget-title">
-                                    <h3>Newsletter</h3>
+                                    <h3>
+                                        <span>Patrocinadores</span>
+                                        <img src="{{ asset('proffer/proffer/assets/images/logos/HGA.png') }}" alt>
+                                    </h3>
                                 </div>
-                                <p>You will be notified when somthing new will be appear.</p>
-                                <form>
-                                    <div class="input-1">
-                                        <input type="email" class="form-control" placeholder="Email Address *" required>
-                                    </div>
-                                    <div class="submit clearfix">
-                                        <button type="submit"><i class="fi flaticon-paper-plane"></i></button>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -267,13 +216,14 @@
                     <div class="row">
                         <div class="separator"></div>
                         <div class="col col-xs-12">
-                            <p class="copyright">Copyright &copy; 2020 Proffer. All rights reserved</p>
-                            <div class="extra-link">
-                                <ul>
-                                    <li><a href="#">Privace & Policy</a></li>
-                                    <li><a href="#">terms and conditions</a></li>
-                                </ul>
-                            </div>
+                            <span>
+                                ©
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>,
+                                {{ __('Diseñado por') }}
+                                <a href="https://www.szystems.com" class="font-weight-bold" target="_blank">Szystems</a>&<a href="https://www.singularbpo.com" class="font-weight-bold" target="_blank">Singular</a>
+                            </span>
                         </div>
                     </div>
                 </div>
