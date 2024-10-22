@@ -2020,7 +2020,7 @@ img {
 }
 
 @media (max-width: 767px) {
-  
+
   .header-style-1 .cart-search-contact .mini-cart,
   .header-style-2 .cart-search-contact .mini-cart,
   .header-style-3 .cart-search-contact .mini-cart {
@@ -2029,7 +2029,7 @@ img {
 }
 
 @media (max-width: 450px) {
-  
+
   .header-style-1 .cart-search-contact .mini-cart,
   .header-style-2 .cart-search-contact .mini-cart,
   .header-style-3 .cart-search-contact .mini-cart {
@@ -5964,7 +5964,7 @@ img {
 }
 
 .contact-section .contact-info-grids > div {
-  background-color: #cd211d;
+  background-color: #f1532a;
   width: 25%;
   float: left;
   padding: 60px 35px;
@@ -5989,13 +5989,13 @@ img {
 
 .contact-section .contact-info-grids > div:nth-child(2),
 .contact-section .contact-info-grids > div:nth-child(4) {
-  background-color: #c01f1b;
+  background-color: #f1532a;
 }
 
 .contact-section .contact-info-grids .fi:before {
   font-size: 50px;
   font-size: 3.125rem;
-  color: #cd211d;
+  color: #f1532a;
 }
 
 @media (max-width: 991px) {

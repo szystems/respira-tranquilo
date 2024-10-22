@@ -30,6 +30,13 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        .bg-white {
+            background-color: white; /* Asegúrate de que el color de fondo sea blanco */
+            min-height: 100px; /* Ajusta la altura mínima según sea necesario */
+        }
+    </style>
+
 </head>
 
 <body>
@@ -123,11 +130,12 @@
                                 </ul>
                             </li>--}}
                             <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#beneficios">Beneficios</a></li>
                             <li><a href="#funcionamiento">¿Cómo Funciona?</a></li>
                             <li><a href="#testimonios">Testimonios</a></li>
-                            <li><a href="#punto">Puntos de Venta</a></li>
-                            <li><a href="#financiamiento">Financiamiento</a></li>
-                            <li><a href="#faq">FAQs</a></li>
+                            {{-- <li><a href="#punto">Puntos de Venta</a></li> --}}
+                            <li><a href="#catalogo">Catálogo</a></li>
+                            <li><a href="#faq">Preguntas</a></li>
                             <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </div><!-- end of nav-collapse -->
@@ -135,7 +143,7 @@
                     <div class="cart-search-contact">
 
                         <div class="donate-btn">
-                            <a href="#contacto" class="theme-btn-s7"><i class="fi flaticon-like"></i> Contacto</a>
+                            <a href="#contacto" class="theme-btn-s7" style="background-color: #f1532a; color: #ffffff;"><i class="fi flaticon-like"></i> Contacto</a>
                         </div>
                     </div>
 
@@ -151,7 +159,7 @@
             <div class="upper-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
+                        <div class="col col-lg-4 col-md-4 col-sm-6">
                             <div class="widget about-widget">
                                 <div class="widget-title">
                                     <h3>
@@ -162,52 +170,87 @@
                                 <p>Respira Tranquilo(a) con tu Estufa Mejorada</p>
                                 <div class="social-icons">
                                     <ul>
-                                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                        <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                        <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                                        <li><a href="https://www.facebook.com/RespiraTranquiloGT" target="blank__"><i class="ti-facebook"></i></a></li>
+                                        <li><a href="https://x.com/RespiraTragt" target="blank__"><i class="ti-twitter-alt"></i></a></li>
+                                        <li><a href="https://www.instagram.com/respiratranquilogt/" target="blank__"><i class="ti-instagram"></i></a></li>
+                                        <li><a href="https://www.tiktok.com/@repiratranquilogt" target="blank__"><img src="{{ asset('proffer/proffer/assets/images/logos/tiktok.png') }}" alt="TikTok" width="15px" height="15px"></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
+                        <div class="col col-lg-4 col-md-4 col-sm-6">
                             <div class="widget contact-widget service-link-widget">
                                 <div class="widget-title">
                                     <h3>Contacto</h3>
                                 </div>
                                 <ul>
-                                    <li><font color="cd211d"><i class="fi flaticon-placeholder"></i></font> Calle 3 45-34 zona 4 Guatemala, Guatemala.</li>
-                                    <li><font color="cd211d"><i class="fi flaticon-call"></i></font> <a href="tel:+50234565432">+(502) 4567-5678</a></li>
-                                    <li><font color="cd211d"><i class="fi flaticon-email"></i></font> <a href="mailto:demo@example.com">info@respiratranquilo.org</a></li>
+                                    <li><font color="cd211d"><i class="fi flaticon-placeholder"></i></font> Oficina 650, Edificio ASCEND, 13 Calle 05-31, Zona 9, Ciudad de Guatemala</li>
+                                    <li><font color="cd211d"><i class="fi flaticon-call"></i></font> <a href="tel:+50222300788">+(502) 2230-0788</a> <br><a href="tel:+50246268096">+(502) 4626-8096</a></li>
+                                    <li><font color="cd211d"><i class="fi flaticon-email"></i></font> <a href="mailto:info@respiratranquilo.org">info@respiratranquilo.org</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
+                        <div class="col col-lg-4 col-md-4 col-sm-6">
                             <div class="widget link-widget">
                                 <div class="widget-title">
                                     <h3>Links</h3>
                                 </div>
                                 <ul>
                                     <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#beneficios">Beneficios</a></li>
                                     <li><a href="#funcionamiento">¿Cómo Funciona?</a></li>
                                     <li><a href="#testimonios">Testimonios</a></li>
-                                    <li><a href="#punto">Puntos de Venta</a></li>
-                                    <li><a href="#financiamiento">Financiamiento</a></li>
-                                    <li><a href="#faq">FAQs</a></li>
+                                    {{-- <li><a href="#punto">Puntos de Venta</a></li> --}}
+                                    <li><a href="#catalogo">Catálogo</a></li>
+                                    <li><a href="#faq">Preguntas</a></li>
                                     <li><a href="#contacto">Contacto</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col col-lg-3 col-md-3 col-sm-6">
+                        {{-- <div class="col col-lg-3 col-md-3 col-sm-6">
                             <div class="widget newsletter-widget">
                                 <div class="widget-title">
                                     <h3>
-                                        <span>Patrocinadores</span>
-                                        <img src="{{ asset('proffer/proffer/assets/images/logos/HGA.png') }}" alt>
+                                        <span>Actores</span>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">
+                                                        <img src="{{ asset('proffer/proffer/assets/images/logos/MAF.png') }}" alt>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <img src="{{ asset('proffer/proffer/assets/images/logos/ALTERNA.png') }}" alt>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <img src="{{ asset('proffer/proffer/assets/images/logos/BID.png') }}" alt>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </h3>
                                 </div>
                             </div>
+                        </div> --}}
+
+                        <div class="row">
+                            <div class="col col-lg-12 col-md-12 col-sm-12">
+                                <div class="widget about-widget">
+                                    <br>
+                                    <img src="{{ asset('proffer/proffer/assets/images/logos/MAF-Alterna-Llamada-BID_B.png') }}" alt>
+                                </div>
+                            </div>
+                            {{-- <div class="col col-lg-4 col-md-4 col-sm-6 bg-white">
+                                <div class="widget contact-widget service-link-widget">
+                                    <img src="{{ asset('proffer/proffer/assets/images/logos/ALTERNA.png') }}" alt>
+                                </div>
+                            </div>
+                            <div class="col col-lg-4 col-md-4 col-sm-6 bg-white">
+                                <div class="widget link-widget">
+                                    <img src="{{ asset('proffer/proffer/assets/images/logos/BID.png') }}" height="120%" alt>
+                                </div>
+                            </div> --}}
                         </div>
+
                     </div>
                 </div> <!-- end container -->
             </div>
@@ -221,8 +264,7 @@
                                 <script>
                                     document.write(new Date().getFullYear())
                                 </script>,
-                                {{ __('Diseñado por') }}
-                                <a href="https://www.szystems.com" class="font-weight-bold" target="_blank">Szystems</a>&<a href="https://www.singularbpo.com" class="font-weight-bold" target="_blank">Singular</a>
+                                Derechos reservados <a href="https://www.respiratranquilo.org" class="font-weight-bold" target="_blank">www.respiratranquilo.org</a>
                             </span>
                         </div>
                     </div>
