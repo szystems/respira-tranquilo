@@ -10,6 +10,16 @@
 
     <title> Respira Tranquilo(a) </title>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JGCPZH5WY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2JGCPZH5WY');
+    </script>
+
     <link href="{{ asset('proffer/proffer/assets/css/themify-icons.css') }}" rel="stylesheet">
     <link href="{{ asset('proffer/proffer/assets/css/flaticon.css') }}" rel="stylesheet">
     <link href="{{ asset('proffer/proffer/assets/css/bootstrap.min.css') }}" rel="stylesheet">
